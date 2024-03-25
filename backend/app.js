@@ -16,7 +16,7 @@ app.use(cors(corsOptions));
 app.use(express.json());
 
 const openai = new OpenAI({
-  apiKey: "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",
+  apiKey: "Your_API_key",
 });
 
 let conversationHistory = [
